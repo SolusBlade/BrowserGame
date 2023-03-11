@@ -1,0 +1,39 @@
+#game-canvas {
+    width: 1800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#start-button{
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: purple;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.game-scene {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url('../images/8f2429672ea793444b6e7174e2094eeb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
